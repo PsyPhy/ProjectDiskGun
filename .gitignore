@@ -1,8 +1,34 @@
 # =============== #
 # Unity generated #
 # =============== #
+*.sln
+*.userprefs
+*.csproj
+*.pidb
+*.unityproj
+.DS_Store
+Library/FailedAssetImports.txt
+Library/cache/
+Library/previews/
+Library/ScriptAssemblies
+obj/
 Temp/
-Library/
+
+Library/AssetImportState
+Library/AssetServerCacheV3
+Library/FailedAssetImports.txt
+Library/ScriptAssemblies
+Library/ScriptMapper
+Library/assetDatabase3
+Library/cache
+Library/expandedItems
+Library/previews
+Library/guidmapper
+
+Library/*.dwlt
+Library/*.asset
+Library/*.prefs
+Library/ShaderCache
 
 # ===================================== #
 # Visual Studio / MonoDevelop generated #
@@ -29,3 +55,7 @@ obj/
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+Library/ShaderCache.db
+
+Library/shadercompiler-1.log
