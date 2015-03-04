@@ -29,6 +29,7 @@ public class iPhoneHandTracker : MonoBehaviour {
 	public int bytesReceived;
 	public int fieldsInRecord;
 	
+	
 	private Socket server;
 	
 
@@ -113,9 +114,9 @@ public class iPhoneHandTracker : MonoBehaviour {
 					// The order that the values are placed into the vector depends on what is the 0 orientation
 					//  of the tracker reference frame. Feel free to switch the order and to re-align with
 					//  whatever reference orientation that you would like.
-					radians.x = float.Parse( fields[3] );
+					radians.x = float.Parse( fields[5] );
 					radians.y = float.Parse( fields[4] );
-					radians.z = float.Parse( fields[5] );
+					radians.z = float.Parse( fields[3] );
 					// Convert to degrees.
 					this.transform.eulerAngles = 180.0f / Mathf.PI * radians;
 				}	
