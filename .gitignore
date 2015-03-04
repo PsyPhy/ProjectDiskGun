@@ -29,6 +29,7 @@ Library/*.dwlt
 Library/*.asset
 Library/*.prefs
 Library/ShaderCache
+Library/metadata
 
 # ===================================== #
 # Visual Studio / MonoDevelop generated #
@@ -59,3 +60,4 @@ Thumbs.db
 Library/ShaderCache.db
 
 Library/shadercompiler-1.log
+
